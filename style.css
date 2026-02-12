@@ -133,7 +133,7 @@ body {
 
 .skills-title {
     font-weight: bold;
-    color: #ff0000;
+    color: #d0ff00;
     margin-bottom: 15px;
 }
 
@@ -178,7 +178,7 @@ button {
 
 button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0, 255, 136, 0.6);
+    box-shadow: 0 6px 18px rgba(255, 255, 255, 0.6);
 }
 
 /* =========================
@@ -290,11 +290,51 @@ button1:hover {
     font-weight: bold;
     font-size: 14px;
 
-    box-shadow: 0 4px 15px rgba(106, 130, 251, 0.4);
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-contact {
+    display: inline-block;
+    text-decoration: none;
+
+    background: linear-gradient(90deg, #00000083, #d9ff00);
+    color: white;
+
+    padding: 12px 40px;
+    border-radius: 25px;
+
+    font-weight: bold;
+    font-size: 14px;
+
+    box-shadow: 0 4px 15px rgba(238, 255, 0, 0.4);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .btn-contact1:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(106, 130, 251, 0.6);
+    box-shadow: 0 6px 20px rgba(255, 0, 0, 0.6);
+}
+
+.btn-contact:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 0, 0, 0.6);
+}
+
+.hidden {
+    display: none;
+}
+
+.botoes1 {
+    display: flex;
+    flex-direction: column; /* coloca um embaixo do outro */
+    gap: 10px; /* espaço entre eles */
+    margin-bottom: 20px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column; /* coloca um embaixo do outro */
+    gap: 10px; /* espaço entre eles */
+    margin-bottom: 20px;
 }
