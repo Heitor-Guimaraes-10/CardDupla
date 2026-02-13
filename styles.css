@@ -1,0 +1,416 @@
+/* =========================
+   RESET & CONFIGURAÇÕES GERAIS
+========================= */
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    transition: 0.4s;
+    min-height: 100vh;
+    gap: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =========================
+   CARD PRINCIPAL
+========================= */
+.card {
+
+    width: 350px;
+
+    padding: 40px 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+
+    /* cor padrao cinza */
+    /* background: #1f1f1f; */
+
+    background: linear-gradient(135deg, #fff, #0072ff);
+
+    color: white;
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+
+    transition: 0.4s;
+
+}
+
+.avatar {
+
+    width: 90px;
+
+    height: 90px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    margin: 0 auto 15px;
+
+}
+
+/* Avatar alternativo */
+.avatar-red {
+    background: linear-gradient(135deg, #ffffff, #000000);
+}
+
+.card1 {
+
+        /* cor padrao vinho/vermelho, sla q cor é essa */
+    /* background-color: #5f0000; */
+
+     background: linear-gradient(to bottom right, #ffffff, #ff0000);
+
+
+    color: #ffffff;
+    width: 350px;
+    padding: 40px 30px;
+
+    border-radius: 20px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+}
+
+/* =========================
+   AVATAR
+========================= */
+.avatar-red {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    margin: 0 auto 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.4s ease;
+}
+
+/* Avatar alternativo */
+.avatar-red {
+    background: linear-gradient(135deg, #ff0000, #000000);
+}
+
+
+/* =========================
+   TÍTULOS E TEXTOS
+========================= */
+.card h1 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.card1 h1 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.subtitle {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.5;
+
+    margin-bottom: 25px;
+}
+
+
+.skills-title {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 30px;
+}
+
+.skill-tag {
+    border: 1px solid #e0e0e0;
+    padding: 6px 15px;
+
+    border-radius: 20px;
+    font-size: 12px;
+
+    color: #000;
+    background-color: #f8faff;
+}
+
+/* =========================
+   BOTÕES (PADRÃO)
+========================= */
+
+
+
+#btn-habilidades, #btn-sobre, #btn-contato {
+
+    background: linear-gradient(135deg, #000, #0072ff);
+
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+
+    color: #ffffff;
+    background: linear-gradient(90deg, #000000, #a5a5a5);
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 255, 136, 0.6);
+}
+
+/* =========================
+   BOTÃO DE CONTATO
+========================= */
+.btn-contact-R {
+    display: inline-block;
+    text-decoration: none;
+
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+
+    padding: 12px 40px;
+    border-radius: 25px;
+
+    font-weight: bold;
+    font-size: 14px;
+
+    box-shadow: 0 4px 15px rgba(106, 130, 251, 0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-contact:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(106, 130, 251, 0.6);
+}
+
+.subtitle-H {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.description1 {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.5;
+
+    margin-bottom: 25px;
+}
+
+
+.skills-title1 {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.skills-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 30px;
+}
+
+.skill-tag1 {
+    border: 1px solid #000000;
+    padding: 6px 15px;
+
+    border-radius: 20px;
+    font-size: 12px;
+
+    color: #000;
+    background-color: #f8faff;
+}
+
+/* =========================
+   BOTÕES (PADRÃO)
+========================= */
+button1 {
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+
+    color: #000000;
+    background: linear-gradient(90deg, #000000, #000000);
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button1:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(255, 255, 255, 0.6);
+}
+
+/* =========================
+   BOTÃO DE CONTATO
+========================= */
+.btn-contact1 {
+    display: inline-block;
+    text-decoration: none;
+
+    background: linear-gradient(90deg, #00000083, #ff0000);
+    color: white;
+
+    padding: 12px 40px;
+    border-radius: 25px;
+
+    font-weight: bold;
+    font-size: 14px;
+
+    box-shadow: 0 4px 15px rgba(106, 130, 251, 0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-contact1:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(106, 130, 251, 0.6);
+}
+
+.hidden {
+    display: none;
+}
+
+.theme-btn {
+
+    position: absolute;
+
+    top: 20px;
+
+    right: 20px;
+
+    padding: 8px 15px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    background: #00c6ff;
+
+    color: white;
+
+    font-weight: bold;
+
+}
+
+/* =========================
+   TEMA CLARO
+========================= */
+
+/* Fundo */
+body.light {
+    background: #333;
+}
+
+/* =========================
+   CARDS
+========================= */
+body.light .card {
+    background: linear-gradient(to bottom right, #00000083 45%, #0072ff);
+    color: #ffffff;
+}
+
+body.light .card1 {
+    background: linear-gradient(to bottom right, #000000, #ff0000 55%);
+    color: #ffffff;
+}
+
+/* =========================
+   TEXTOS INTERNOS
+========================= */
+.card h1,
+.card .description {
+    color: inherit;
+}
+
+.card1 h1,
+.card1 .description1,
+.card1 .subtitle-H {
+    color: inherit;
+}
+
+/* =========================
+   SKILLS
+========================= */
+body.light .skill-tag {
+    background: #e0e0e0;
+    color: #000000;
+    border-color: #cfcfcf;
+}
+
+body.light .skill-tag1 {
+    background: #e0e0e0;
+    color: #000000;
+    border-color: #cfcfcf;
+}
+
+
+.btn-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0;
+}
+
